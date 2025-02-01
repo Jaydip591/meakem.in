@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>meakem</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- normalize css -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='resources/normalize.css') }}">
+  <!-- font -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='resources/font.css') }}">
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- magnific popup -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='resources/Magnific-Popup-master/dist/magnific-popup.css') }}">
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css') }}">
+  <!-- animate css -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='resources/animate.css-main/animate.css') }}">
+  <!-- custom (main) css -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header" id="intro">
+    <nav class="navbar">
+      <div class="container">
+        <div class="brand-and-toggler">
+            <a href="{{ url_for('home') }}" class="navbar-brand">meakem<span>.</span>in</a>
+
+          <button type="button" class="navbar-toggler" id="navbar-toggler">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+
+        <div class="navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#intro" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-us" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact </a>
+            </li>
+            <li class="nav-item">
+              <a href="#catalogue" class="nav-link">catalogue</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-div center container">
+      <h1>Welcome to <span>meakem</span> lab chemical manufacturer ​</h1>
+      <p class="animate__animated animate__fadeInUp animate__slow">​Your trusted partner in chemical solutions</p>
+
+      <div class="hero-btns animate__animated animate__fadeInUp animate__slow">
+        <button class="btn-white" onclick="location.href='#catalogue'">Product Catalogue</button>
+
+      </div>
+    </div>
+  </header>
+  <!-- end of header -->
+
+  <!-- detail section -->
+  <section class="detail">
+    <div class="container">
+      <div class="row">
+        <div class="detail-item wow animate__animated animate__fadeInLeft animate__slow">
+          <span><i class="fa-solid fa-flask"></i></span>
+
+          <h2>Expert Chemical Solutions</h2>
+          <div class="line"></div>
+          <p class="text">We provide innovative and customized chemical solutions to meet the specific needs of our
+            clients across diverse industries.</p>
+        </div>
+
+        <div class="detail-item wow animate__animated animate__fadeInUp animate__s">
+          <span><i class="fa-solid fa-truck"></i></span>
+          <h2>Reliable Distribution</h2>
+          <div class="line"></div>
+          <p class="text">With a strong logistics network, we ensure timely and efficient delivery of high-quality
+            chemical products to your doorstep.</p>
+        </div>
+
+        <div class="detail-item wow animate__animated animate__fadeInRight animate__slow">
+          <span><i class="fa-regular fa-handshake"></i></span>
+          <h2>Technical Expertise</h2>
+          <div class="line"></div>
+          <p class="text">Our team of experienced professionals offers comprehensive guidance and technical support to
+            help you achieve your goals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of detial section -->
+
+  <!-- About us section -->
+  <section class="feature" id="about-us">
+    <div class="container">
+      <div class="row">
+        <div class="feature-left wow animate__animated animate__fadeInUp animate__slow">
+          <img src="{{ url_for('static', filename='assets/about.jpg') }}" alt="about">
+
+        </div>
+        <div class="feature-right wow animate__animated animate__fadeInUp animate__slow">
+          <div class="title">
+            <h2>About Us</h2>
+            <p class="text">We meakem provide products and solutions to our clients for their needs through research, product development, efficient manufacturing practices, quality assurance and prompt support to ensure customer satisfaction.
+            </p>
+          </div>
+
+          <div class="feature-item">
+            <span><i class="fas fa-users"></i></span>
+            <div>
+              <h3>Our Vision</h3>
+              <p class="text">To be a preferred global provider of laboratory chemicals, reagents and other allied products to various industries who are the users of our products through innovation and hence benefit our partners, suppliers and stakeholders</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <span><i class="fas fa-bullseye"></i></span>
+            <div>
+              <h3>Our Mission</h3>
+              <p class="text">To become a global leader in providing cutting-edge web design and development services.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of features section -->
+
+  <!-- sample video section -->
+  <section class="video">
+    <div class="container">
+      </a>
+      <h2 class="wow animate__animated animate__fadeInUp animate__slow">​Quality Assurance</h2>
+      <p class="wow animate__animated animate__fadeInUp animate__slow">​At Mechem, we prioritize customer satisfaction
+        by adhering to stringent quality standards and timely delivery of our chemical products. Our quality management
+        system is designed to ensure that our clients receive reliable and consistent products for their applications.
+      </p>
+    </div>
+  </section>
+  <!-- end of sample video section -->
+
+  <!-- team section -->
+  <section class="contact-right" id="contact">
+    <div class="container">
+      <div class="title">
+        <h2 class="wow animate__animated animate__bounceIn animate__slow">Contact Us</h2>
+        <p class="text">Get in touch with us for more information or any inquiries.</p>
+      </div>
+
+      <div class="contact-info">
+        <div class="contact-item">
+          
+          <h3 class="text"><i class="fas fa-envelope"></i> Email</h3>
+          <p class="text"> <a href="mailto:vjp25101996@gmail.com"> info@meakem.in</a></p>
+        </div>
+
+        <div class="contact-item">
+          
+          <h3 class="text"><i class="fas fa-phone"></i> Phone</h3>
+          <p class="text"><a href="tel:+919512897731"> +91 9512897731</a></p>
+        </div>
+
+        <div class="contact-item">
+
+          <h3 class="text"> <i class="fas fa-map-marker-alt"></i> Address</h3>
+          <p class="text">D112 Amar Industrial Estate, Opp-Uttar Gujarat Vasahat, Naroda Road, Ahmedabad<br>
+          <span>382345</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of team section -->
+
+  <!-- testimonial section -->
+  <section class="testimonial" id="testimonial">
+    <div class="container">
+      <div class="title">
+        <h2 class="wow animate__animated animate__bounceIn animate__slow">Environment Helth and sefety</h2>
+        <p class="text">Lorem ipsum dolor sit amet consectetur</p>
+      </div>
+
+      <div class="row owl-carousel owl-theme wow animate__animated animate__fadeInUp animate__slow">
+        <div class="testimonial-item">
+          <div class="testimonial-img"> 
+            <img src="{{ url_for('static', filename='assets/test-1.jpg') }}" alt="Test 1">
+          </div>
+          <p>Meakemis a proponent of Sustainable Chemistry with Safety. Following are some of the initiatives and practices at Meakem to move towards compliance to Environment, Health & Safety Standards:
+          </p>
+        </div>
+
+        <div class="testimonial-item">
+          <div class="testimonial-img">
+            <img src="{{ url_for('static', filename='assets/test-2.jpg') }}" alt="Test 2">
+
+          </div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta doloribus necessitatibus totam alias unde
+            sint veritatis placeat beatae maiores odio?</p>
+          <span>Someone's Name</span>
+        </div>
+
+        <div class="testimonial-item">
+          <div class="testimonial-img">
+            <img src="{{ url_for('static', filename='assets/test-3.jpg') }}" alt="Test 3">
+
+          </div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta doloribus necessitatibus totam alias unde
+            sint veritatis placeat beatae maiores odio?</p>
+          <span>Someone's Name</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of testimonial section -->
+
+  <!-- catalog section -->
+  <section class="contact" id="catalogue"">
+    <div class="container">
+      <div class="title">
+        <h2 class="wow animate__animated animate__bounceIn animate__slow">Request Product catalogue</h2>
+        <p class="text">
+          Fill out the form below to receive our product catalogue via email</p>
+      </div>
+
+      <div class="row wow animate__animated animate__fadeInUp animate__slow">
+        <div class="contact-left">
+          <h2>Send Message Here</h2>
+          <form action="/home" method="POST">
+            <input type="text" class="form-control" name="name" placeholder="Name">
+            <input type="email" class="form-control" name="email" placeholder="Email">
+            
+            <textarea placeholder="Message" rows="6"></textarea>
+            <button type="submit" class="submit-btn">Send Now</button>
+          </form>
+        </div>
+
+  </section>
+  <!-- end of contact section -->
+
+  <!-- footer -->
+  <footer class="footer center" >
+    <div class="container">
+      <p class="text">Copyright &copy; Meakem.in | All Rights Reserved</p>
+      <div class="footer-links">
+  
+        <a href="#" class="center">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="center">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="#" class="center">
+          <i class="fab fa-twitter"></i>
+        </a>
+      
+      </div>
+    </div>
+  </footer>
+  <!-- end of footer -->
+
+  <script src="{{ url_for('static', filename='resources/jquery-3.5.1.js') }}"></script>
+  <!-- magnific popup -->
+  <script src="{{ url_for('static', filename='resources/Magnific-Popup-master/dist/jquery.magnific-popup.js') }}"></script>
+  <!-- owl carousel -->
+  <script src="{{ url_for('static', filename='resources/OwlCarousel2-2.3.4/dist/owl.carousel.js') }}"></script>
+  <!-- wow js -->
+  <script src="{{ url_for('static', filename='resources/WOW-master/dist/wow.js') }}"></script>
+  <!-- custom js -->
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>
